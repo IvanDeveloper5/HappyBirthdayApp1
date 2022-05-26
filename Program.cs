@@ -26,13 +26,10 @@ namespace HappyBirthdayApp1
             
             st.Clear();
             var view = (be.view.Select(x => new { x.number, x.fio, x.day })).ToList();
-            List<int> countSpace = new List<int>();
-            
 
             foreach (var v in view)
             {
                 st.Add(new string[] { v.number.ToString(), v.fio, v.day.ToShortDateString() });
-                countSpace.Add(v.fio.Length);
 
                 if (v.fio.Length > maxLength) maxLength = v.fio.Length;
             }
