@@ -20,7 +20,7 @@ namespace HappyBirthdayApp1
             return str;
         }
 
-        //Отображение данных из БД
+        //Отображение данных БД
         static void ViewData() 
         {
             
