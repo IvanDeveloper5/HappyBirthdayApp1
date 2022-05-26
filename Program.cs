@@ -120,7 +120,7 @@ namespace HappyBirthdayApp1
                     }
 
                 }
-                Console.WriteLine("Годы могут быть в диапазоне 1900 - "+DateTime.Now.Year+".\nПопробуйте ещё раз.\n");
+                Console.WriteLine("Год может быть в диапазоне 1900 - "+DateTime.Now.Year+".\nПопробуйте ещё раз.\n");
 
             }
             
@@ -283,7 +283,7 @@ namespace HappyBirthdayApp1
                         }
 
                     }
-                    Console.WriteLine("Годы могут быть в диапазоне 1900 - " + DateTime.Now.Year + ".\nПопробуйте ещё раз.\n");
+                    Console.WriteLine("Год может быть в диапазоне 1900 - " + DateTime.Now.Year + ".\nПопробуйте ещё раз.\n");
 
                 }
 
