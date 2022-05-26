@@ -38,7 +38,7 @@ namespace HappyBirthdayApp1
 
             for (int i = 0; i < st.Count(); i++)
             {
-                //Делаем поле fio одной длинны для красивой табуляции
+                //Делаем поле fio одной длины для красивой табуляции
                 st[i][1] += Space(" ", maxLength-st[i][1].Length);
                 Console.WriteLine(st[i][0]+"\t"+st[i][1]+"\t"+st[i][2]);
             }
