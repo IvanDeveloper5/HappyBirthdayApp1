@@ -123,7 +123,7 @@ namespace HappyBirthdayApp1
                     }
 
                 }
-                Console.WriteLine("Число лет должно быть 1900 - "+DateTime.Now.Year+".\nПопробуйте ещё раз.\n");
+                Console.WriteLine("Годы могут быть 1900 - "+DateTime.Now.Year+".\nПопробуйте ещё раз.\n");
 
             }
             
